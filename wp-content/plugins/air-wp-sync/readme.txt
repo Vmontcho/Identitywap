@@ -2,11 +2,11 @@
 Author: WP connect
 Author URI: https://wpconnect.co/
 Contributors: wpconnectco, thomascharbit, vincentdubroeucq
-Tags: wpconnect, airtable, wordpress, api
+Tags: airtable, integration, api, automation, synchronization
 Requires at least: 5.7
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 7.0
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,6 +100,13 @@ If you need some assistance, open a ticket on the [Support](https://wordpress.or
 
 
 == Changelog ==
+
+= 2.5.0 =
+Fix: Added support for singleSelect and multipleSelect fields returned by formula fields. 
+Feature: Added new UI for Airtable views filters
+Improvement: Support for comma-seperated list of terms for taxonomy fields
+Improvement: Fixed admin page javascript
+Improvement: Minor code comments fixing
 
 = 2.4.0 =
 Feature: Added ability to import taxonomy terms

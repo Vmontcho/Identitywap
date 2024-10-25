@@ -55,11 +55,21 @@ class Air_WP_Sync_Admin_Connection {
 		$screen = get_current_screen();
 		if ( is_object( $screen ) && 'airwpsync-connection' === $screen->id ) {
 			wp_enqueue_script( 'air-wp-sync-alpine', plugins_url( 'assets/js/alpinejs@3.10.2.min.js', AIR_WP_SYNC_PLUGIN_FILE ), false, AIR_WP_SYNC_VERSION, false );
-			wp_enqueue_script( 'air-wp-sync-admin', plugins_url( 'assets/js/admin-page.js', AIR_WP_SYNC_PLUGIN_FILE ), array( 'air-wp-sync-alpine', 'jquery-ui-tooltip', 'wp-hooks' ), AIR_WP_SYNC_VERSION, false );
+			wp_enqueue_script( 'air-wp-sync-filters', plugins_url( 'assets/js/filters/main.js', AIR_WP_SYNC_PLUGIN_FILE ), false, AIR_WP_SYNC_VERSION, false );
+			wp_enqueue_script( 'air-wp-sync-admin', plugins_url( 'assets/js/admin-page.js', AIR_WP_SYNC_PLUGIN_FILE ), array( 'air-wp-sync-alpine', 'jquery-ui-tooltip', 'wp-hooks', 'air-wp-sync-filters' ), AIR_WP_SYNC_VERSION, false );
 			wp_add_inline_script( 'air-wp-sync-admin', 'var airwpsyncImporterData = ' . $this->get_config(), 'before' );
 			wp_add_inline_script( 'air-wp-sync-admin', 'var airWpSync = ' . $this->get_modules_config(), 'before' );
 			wp_localize_script( 'air-wp-sync-admin', 'airWpSyncL10n', $this->get_l10n_strings() );
 			wp_enqueue_script( 'air-wp-sync-admin-metabox-mapping', plugins_url( 'assets/js/metabox-mapping/main.js', AIR_WP_SYNC_PLUGIN_FILE ), array( 'air-wp-sync-admin' ), AIR_WP_SYNC_VERSION, false );
+			wp_enqueue_style( 'air-wp-sync-ui', plugins_url( 'assets/js/air-wp-sync-ui/library/index.css', AIR_WP_SYNC_PLUGIN_FILE ), false, AIR_WP_SYNC_VERSION );
+			// .airwpsync-ui class is required by 'air-wp-sync-ui' style.
+			add_filter(
+				'admin_body_class',
+				function ( $body_class ) {
+					$body_class .= ' airwpsync-ui';
+					return $body_class;
+				}
+			);
 		}
 	}
 
@@ -77,7 +87,7 @@ class Air_WP_Sync_Admin_Connection {
 	 * Add metaboxes for importer post type
 	 */
 	public function add_meta_boxes() {
-		new Air_WP_Sync_Metabox_Global_Settings();
+		new Air_WP_Sync_Metabox_Global_Settings( new Air_WP_Sync_Filters() );
 		new Air_WP_Sync_Metabox_Importer_Settings();
 		new Air_WP_Sync_Metabox_Field_Mapping();
 		new Air_WP_Sync_Metabox_Sync_Settings();

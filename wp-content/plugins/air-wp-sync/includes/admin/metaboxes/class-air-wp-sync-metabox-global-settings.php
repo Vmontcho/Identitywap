@@ -8,13 +8,27 @@ use Exception;
  * Air_WP_Sync_Metabox_Global_Settings
  */
 class Air_WP_Sync_Metabox_Global_Settings {
+	
+	/**
+	 * Filters class instance.
+	 *
+	 * @var Air_WP_Sync_Filters
+	 */
+	protected $filters;
+
 	/**
 	 * Constructor
+	 * 	 
+	 * @param Air_WP_Sync_Filters $filters Filters class instance.
 	 */
-	public function __construct() {
+	public function __construct( $filters ) {
+		$this->filters = $filters;
+
 		add_action( 'add_meta_boxes', array( $this, 'add_meta_box' ) );
 		add_action( 'wp_ajax_air_wp_sync_get_airtable_bases', array( $this, 'get_airtable_bases' ) );
 		add_action( 'wp_ajax_air_wp_sync_get_airtable_tables', array( $this, 'get_airtable_tables' ) );
+		add_action( 'wp_ajax_air_wp_sync_get_airtable_table_users', array( $this, 'get_airtable_table_users' ) );
+		add_action( 'wp_ajax_air_wp_sync_get_airtable_table_records', array( $this, 'get_airtable_table_records' ) );
 		add_action( 'wp_ajax_air_wp_sync_check_formula_filter', array( $this, 'check_formula_filter' ) );
 	}
 
@@ -118,12 +132,186 @@ class Air_WP_Sync_Metabox_Global_Settings {
 				foreach ( $table->fields as $field ) {
 					$field->name = Air_WP_Sync_Helper::decode_emoji( $field->name );
 				}
+				$table->filters = $this->filters->get_filters_from_fields( $table->fields );
 			}
 
 			wp_send_json_success(
 				array(
 					'tables' => $tables,
 				)
+			);
+		} catch ( Exception $e ) {
+			wp_send_json_error(
+				array(
+					'error' => $e->getMessage(),
+				)
+			);
+		}
+	}
+
+	/**
+	 * Ajax action to get users from Airtable collaborator field from a specific table.
+	 *
+	 * @return void
+	 */
+	public function get_airtable_table_users() {
+		// Data check.
+		if ( empty( $_POST['apiKey'] ) || empty( $_POST['appId'] ) || empty( $_POST['table'] ) || empty( $_POST['userFieldName'] ) || ( empty( $_POST['search'] ) && empty( $_POST['search[]'] ) ) ) {
+			wp_die();
+		}
+		// Nonce check.
+		check_ajax_referer( 'air-wp-sync-ajax', 'nonce' );
+
+		// Get data.
+		$params          = array_merge( $_POST );
+		$params          = wp_unslash( $params );
+		$api_key         = sanitize_text_field( $params['apiKey'] );
+		$app_id          = sanitize_text_field( $params['appId'] );
+		$table_id        = sanitize_text_field( $params['table'] );
+		$user_field_name = sanitize_text_field( $params['userFieldName'] );
+		$search          = sanitize_text_field( $params['search'] ?? '' );
+		$search_multi    = ! empty( $params['search[]'] ) ? array_map( 'sanitize_text_field', $params['search[]'] ) : array();
+		try {
+			$client = new Air_WP_Sync_Airtable_Api_Client( $api_key );
+
+			$filter_by_formula = '';
+			if ( ! empty( $search_multi ) ) {
+				$filter_by_formula = 'OR(';
+				foreach ( $search_multi as $search_term ) {
+					$filter_by_formula .= sprintf(
+						'FIND(%s,%s)',
+						$this->filters->escape_formula_column_value( $search_term ),
+						$this->filters->escape_formula_column_name( $user_field_name )
+					) . ',';
+				}
+				$filter_by_formula  = rtrim( $filter_by_formula, ',' );
+				$filter_by_formula .= ')';
+			} else {
+				$filter_by_formula .= sprintf(
+					'FIND(%s,%s)',
+					$this->filters->escape_formula_column_value( $search ),
+					$this->filters->escape_formula_column_name( $user_field_name )
+				);
+			}
+
+			$result = $client->list_records(
+				$app_id,
+				$table_id,
+				array(
+					'pageSize'        => 10,
+					'fields'          => array( $user_field_name ),
+					'filterByFormula' => $filter_by_formula,
+				)
+			);
+
+			$users = array_map(
+				function ( $record ) use ( $user_field_name ) {
+					return $record->fields->{$user_field_name};
+				},
+				$result->records ?? array()
+			);
+
+			wp_send_json_success(
+				$users
+			);
+		} catch ( Exception $e ) {
+			wp_send_json_error(
+				array(
+					'error' => $e->getMessage(),
+				)
+			);
+		}
+	}
+
+	/**
+	 * Ajax action to get records from Airtable link to another record field from a specific table.
+	 *
+	 * @return void
+	 */
+	public function get_airtable_table_records() {
+		// Data check.
+		if ( empty( $_POST['apiKey'] ) || empty( $_POST['appId'] ) || empty( $_POST['table'] ) || empty( $_POST['recordFieldName'] ) || ( empty( $_POST['search'] ) && empty( $_POST['search[]'] ) ) ) {
+			wp_die();
+		}
+		// Nonce check.
+		check_ajax_referer( 'air-wp-sync-ajax', 'nonce' );
+
+		// Get data.
+		$params            = array_merge( $_POST );
+		$params            = wp_unslash( $params );
+		$api_key           = sanitize_text_field( $params['apiKey'] );
+		$app_id            = sanitize_text_field( $params['appId'] );
+		$table_id          = sanitize_text_field( $params['table'] );
+		$record_field_name = sanitize_text_field( $params['recordFieldName'] );
+		$search            = sanitize_text_field( $params['search'] ?? '' );
+		$search_multi      = ! empty( $params['search[]'] ) ? array_map( 'sanitize_text_field', $params['search[]'] ) : array();
+		try {
+			$client = new Air_WP_Sync_Airtable_Api_Client( $api_key );
+
+			$filter_by_formula = '';
+			if ( ! empty( $search_multi ) ) {
+				$filter_by_formula = 'OR(';
+				foreach ( $search_multi as $search_term ) {
+					$filter_by_formula .= sprintf(
+						'FIND(%s,%s)',
+						$this->filters->escape_formula_column_value( $search_term ),
+						$this->filters->escape_formula_column_name( $record_field_name )
+					) . ',';
+				}
+				$filter_by_formula  = rtrim( $filter_by_formula, ',' );
+				$filter_by_formula .= ')';
+			} else {
+				$filter_by_formula .= sprintf(
+					'FIND(%s,%s)',
+					$this->filters->escape_formula_column_value( $search ),
+					$this->filters->escape_formula_column_name( $record_field_name )
+				);
+			}
+
+			$result = $client->list_records(
+				$app_id,
+				$table_id,
+				array(
+					'pageSize'        => 10,
+					'fields'          => array( $record_field_name ),
+					'filterByFormula' => $filter_by_formula,
+					'cellFormat'      => 'string',
+					'timeZone'        => 'GMT',
+					'userLocale'      => 'en-gb',
+				)
+			);
+
+			$records_value = array_reduce(
+				$result->records ?? array(),
+				function ( $carry, $record ) use ( $record_field_name, $search ) {
+					$records_values = array_map( 'trim', explode( ',', $record->fields->{$record_field_name} ) );
+					// Filter again the values, some of them might have been added because there are in the same cell.
+					$records_values = array_filter(
+						$records_values,
+						function ( $field_records_value ) use ( $search ) {
+							return mb_strpos( $field_records_value, $search ) !== false;
+						}
+					);
+					$records_values = array_values( $records_values );
+					return array_merge( $carry, $records_values );
+				},
+				array()
+			);
+
+			$records_value = array_unique( $records_value );
+
+			$records_value = array_map(
+				function ( $record_value ) {
+					return array(
+						'id'   => $record_value,
+						'name' => $record_value,
+					);
+				},
+				$records_value
+			);
+
+			wp_send_json_success(
+				$records_value
 			);
 		} catch ( Exception $e ) {
 			wp_send_json_error(

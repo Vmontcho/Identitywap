@@ -1,4 +1,41 @@
 == Changelog ==
+= 4.4.1 =
+* Bump serve-static and express in /blocks for improved performance
+* Resolved issue with Mailchimp sync getting stuck at 200 contacts
+* Fixed deprecated warning for Menu::add_plugin_item in Mailchimp for WooCommerce 
+* Corrected customer count function to ensure accurate reporting
+* Fixed inaccuracies in overview stats display
+* Enhanced Remote Diagnostics error handling 
+= 4.4 =
+* Bumps axios from 1.6.7 to 1.7.7 in /blocks
+* Bumps webpack from 5.88.2 to 5.94.0 in /blocks
+* Fix for Multisite users unable to activate or view plugin 
+* Removes unused admin/partial files
+* Updates to copy on account creation page 
+= 4.3 =
+* Adds Order HPOS function for pagination
+* Now starts syncing customers via HPOS
+* Changes sync order: customers > products > coupons > orders — and make sync actions more atomic
+* Use direct WP DB SELECT / INSERT for sync options to circumvent object caching
+* Removes the bundled version of Action Scheduler
+* Removes checkout opt-in if customers already subscribed
+* Fixes cli sync issue where historical Orders Not Syncing Correctly
+* Fixes Account Connection Issue Related to Object Caching
+* Fixes HTTP worker warning
+* Change to replace option, transient functions with direct DB queries
+* Fallback function to check for options autoloader
+= 4.2.1 =
+* Bug fix for product variations
+* Front end optimizations
+= 4.2 =
+* Remote diagnostics setting maintenance 
+* Adds support for syncing Wordpress user/customer account language to Mailchimp contact 
+* Fix for WooCommerce coupons date_expires not syncing to Mailchimp 
+* Design update for disconnect modal 
+* Fix for issue with setting logging preference to none
+* Enhances syncing orders by starting from newest to oldest 
+* Adds WooCommerce plugin dependency feature 
+* Bump braces from 3.0.2 to 3.0.3 in /blocks
 = 4.1 =
 * Introduced a new filter for coupons (details available in the Wiki).
 * Restored the "Resync Now" button.

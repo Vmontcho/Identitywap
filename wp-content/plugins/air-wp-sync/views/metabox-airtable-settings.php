@@ -99,12 +99,21 @@ if ( ! defined( 'WPINC' ) ) {
             </label>
         </th>
         <td>
-            <div :class="'airwpsync-field ' + getValidationCssClass('formulaFilter')">
-                <input class="regular-text ltr" name="formula_filter" type="text" x-model="config.formula_filter" @blur="checkFormulaFilter" />
-                <p x-show="serverValidation.formulaFilter && !serverValidation.formulaFilter.valid" x-text="serverValidation.formulaFilter && serverValidation.formulaFilter.message"></p>
+            <div :class="'airwpsync-field ' + (!config.use_filter_ui ? getValidationCssClass('formulaFilter'): '')">
+                <input x-show="!config.use_filter_ui" class="regular-text ltr" name="formula_filter" type="text" x-model="config.formula_filter" @blur="checkFormulaFilter" />
+                <p x-show="!config.use_filter_ui && serverValidation.formulaFilter && !serverValidation.formulaFilter.valid" x-text="serverValidation.formulaFilter && serverValidation.formulaFilter.message"></p>
+                <div :style="{marginTop: config.use_filter_ui ? '5px' : '10px' }">
+                    <input type="checkbox" id="use_filter_ui" name="use_filter_ui" x-model="config.use_filter_ui" class="">
+                    <label for="use_filter_ui"><?php esc_html_e( 'Use filters UI', 'air-wp-sync' ); ?></label>
+                </div>
             </div>
         </td>
     </tr>
+    <tr x-show="config.use_filter_ui">
+		<td colspan="2">
+			<div id="airwpsync-filters"></div>
+		</td>
+	</tr>
 
     <tr valign="top">
         <th scope="row">

@@ -15,7 +15,7 @@ class Air_WP_Sync_Term_Helpers {
 	/**
 	 * Get available taxonomies.
 	 *
-	 * @return WP_Term[]
+	 * @return WP_Taxonomy[]
 	 */
 	public static function get_taxonomies() {
 		$taxonomies = get_taxonomies(

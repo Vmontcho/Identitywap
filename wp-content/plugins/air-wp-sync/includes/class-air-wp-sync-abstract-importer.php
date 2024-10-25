@@ -23,10 +23,18 @@ abstract class Air_WP_Sync_Abstract_Importer {
 	protected $module;
 
 	/**
+	 * Filters class instance.
+	 *
+	 * @var Air_WP_Sync_Filters
+	 */
+	protected $filters;
+
+	/**
 	 * Constructor
 	 */
-	public function __construct( $importer_post_object, $module ) {
-		$this->module = $module;
+	public function __construct( $importer_post_object, $module, $filters ) {
+		$this->module  = $module;
+		$this->filters = $filters;
 		$this->load_settings( $importer_post_object );
 
 		add_filter( 'airwpsync/get_importers', array( $this, 'register' ) );
@@ -279,10 +287,18 @@ abstract class Air_WP_Sync_Abstract_Importer {
 	 * Get AT records from API
 	 */
 	protected function get_records( $run_id, $offset = null ) {
+		$formula_filter = $this->config()->get( 'formula_filter' );
+		if ( $this->config()->get( 'use_filter_ui' ) ) {
+			$formula_filter = $this->filters->build_formula(
+				$this->config()->get( 'filters' ),
+				$this->filters->get_filters_from_fields( $this->get_airtable_fields() )
+			);
+		}
+
 		$api_list_options = array(
 			'offset'                => $offset,
 			'view'                  => $this->config()->get( 'view' ),
-			'filterByFormula'       => $this->config()->get( 'formula_filter' ),
+			'filterByFormula'       => $formula_filter,
 			'returnFieldsByFieldId' => true,
 		);
 		// Remove empty values

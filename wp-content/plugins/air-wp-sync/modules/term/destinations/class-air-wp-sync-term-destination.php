@@ -117,7 +117,7 @@ class Air_WP_Sync_Term_Destination extends Air_WP_Sync_Abstract_Destination {
 	 * @param array                     $term_data Term data.
 	 * @param Air_WP_Sync_Term_Importer $importer Term importer.
 	 * @param array                     $fields Fields.
-	 * @param array                     $record Airtable record.
+	 * @param \stdClass                 $record Airtable record.
 	 * @param int                       $term_id Existing content id.
 	 */
 	public function add_to_term_data( $term_data, $importer, $fields, $record, $term_id ) {
@@ -152,7 +152,7 @@ class Air_WP_Sync_Term_Destination extends Air_WP_Sync_Abstract_Destination {
 		$taxonomy      = $this->get_taxonomy_mapping_value( $importer, $fields, $mapped_fields );
 
 		foreach ( $mapped_fields as $mapped_field ) {
-			if ( in_array( $mapped_field['wordpress'], array( 'parentByName', 'parentById' ) ) ) {
+			if ( in_array( $mapped_field['wordpress'], array( 'parentByName', 'parentById' ), true ) ) {
 				$value = $this->get_airtable_value( $fields, $mapped_field['airtable'], $importer );
 				if ( ! empty( $value ) ) {
 					$parent_id = $this->format( $value, $mapped_field, $importer, $taxonomy );

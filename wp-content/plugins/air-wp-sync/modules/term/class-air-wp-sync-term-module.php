@@ -87,7 +87,7 @@ class Air_WP_Sync_Term_Module extends Air_WP_Sync_Abstract_Module {
 	 * @param \WP_Post $post Post object holding the importer config.
 	 */
 	public function get_importer_instance( $post ) {
-		return new Air_WP_Sync_Term_Importer( $post, $this );
+		return new Air_WP_Sync_Term_Importer( $post, $this, new Air_WP_Sync_Filters() );
 	}
 
 	/**
@@ -137,7 +137,7 @@ class Air_WP_Sync_Term_Module extends Air_WP_Sync_Abstract_Module {
 			 * Filters features by taxonomy.
 			 *
 			 * @param array $features Features.
-			 * @param string $taxonomy Taxonomy.
+			 * @param WP_Taxonomy $taxonomy Taxonomy.
 			 */
 			$features[ $taxonomy->name ] = apply_filters(
 				'airwpsync/features_by_taxonomy',

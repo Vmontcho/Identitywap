@@ -89,7 +89,7 @@ class Air_WP_Sync_Post_Module extends Air_WP_Sync_Abstract_Module {
 	 * Get importer instance
 	 */
 	public function get_importer_instance( $post ) {
-		return new Air_Wp_Sync_Post_Importer( $post, $this );
+		return new Air_WP_Sync_Post_Importer( $post, $this, new Air_WP_Sync_Filters() );
 	}
 
 	/**

@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Air WP Sync - Airtable to WordPress 2.4.0\n"
+"Project-Id-Version: Air WP Sync - Airtable to WordPress 2.5.0\n"
 "Report-Msgid-Bugs-To: https://wpconnect.freshdesk.com/\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-06-13T14:31:20+00:00\n"
+"POT-Creation-Date: 2024-09-09T09:04:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: air-wp-sync\n"
@@ -47,76 +47,76 @@ msgstr ""
 msgid "One or more fields have an error. Please check and try again."
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:143
+#: includes/admin/class-air-wp-sync-admin-connection.php:153
 msgid "Back to list"
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:150
-#: includes/admin/class-air-wp-sync-admin-connection.php:151
+#: includes/admin/class-air-wp-sync-admin-connection.php:160
+#: includes/admin/class-air-wp-sync-admin-connection.php:161
 msgid "Connection updated."
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:152
+#: includes/admin/class-air-wp-sync-admin-connection.php:162
 msgid "Connection published."
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:153
+#: includes/admin/class-air-wp-sync-admin-connection.php:163
 msgid "Connection saved."
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:154
+#: includes/admin/class-air-wp-sync-admin-connection.php:164
 msgid "Connection draft updated."
 msgstr ""
 
 #. translators: %s: Number of connections.
-#: includes/admin/class-air-wp-sync-admin-connection.php:169
+#: includes/admin/class-air-wp-sync-admin-connection.php:179
 msgid "%s connection updated."
 msgid_plural "%s connections updated."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:170
+#: includes/admin/class-air-wp-sync-admin-connection.php:180
 msgid "1 connection not updated, somebody is editing it."
 msgstr ""
 
 #. translators: %s: Number of connections.
-#: includes/admin/class-air-wp-sync-admin-connection.php:172
+#: includes/admin/class-air-wp-sync-admin-connection.php:182
 msgid "%s connection not updated, somebody is editing it."
 msgid_plural "%s connections not updated, somebody is editing them."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: Number of connections.
-#: includes/admin/class-air-wp-sync-admin-connection.php:174
+#: includes/admin/class-air-wp-sync-admin-connection.php:184
 msgid "%s connection permanently deleted."
 msgid_plural "%s connections permanently deleted."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: Number of connections.
-#: includes/admin/class-air-wp-sync-admin-connection.php:176
+#: includes/admin/class-air-wp-sync-admin-connection.php:186
 msgid "%s connection moved to the Trash."
 msgid_plural "%s connections moved to the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: Number of connections.
-#: includes/admin/class-air-wp-sync-admin-connection.php:178
+#: includes/admin/class-air-wp-sync-admin-connection.php:188
 msgid "%s connection restored from the Trash."
 msgid_plural "%s connections restored from the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:215
+#: includes/admin/class-air-wp-sync-admin-connection.php:225
 #: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:70
 msgid "In progress..."
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:216
+#: includes/admin/class-air-wp-sync-admin-connection.php:226
 msgid "Canceling..."
 msgstr ""
 
-#: includes/admin/class-air-wp-sync-admin-connection.php:243
+#: includes/admin/class-air-wp-sync-admin-connection.php:253
 msgid "Thank you for using the Free Version of our plugin! You already have an active connection. To be able to create as many active connections as you want, <a href=\"https://wpconnect.co/air-wp-sync-plugin/#pricing-plan\" target=\"_blank\">Upgrade to Pro Version</a>."
 msgstr ""
 
@@ -195,16 +195,16 @@ msgstr ""
 msgid "Field Mapping"
 msgstr ""
 
-#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:27
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:41
 msgid "Airtable Settings"
 msgstr ""
 
 #. translators: %1$s = access token creation URL
-#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:61
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:75
 msgid "This looks like a user API key that is now deprecated. Please replace it with a <a href=\"%1$s\" target=\"_blank\">personal access token</a>."
 msgstr ""
 
-#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:164
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:352
 msgid "No formula to check"
 msgstr ""
 
@@ -252,6 +252,17 @@ msgstr ""
 
 #: includes/admin/metaboxes/class-air-wp-sync-metabox-sync-settings.php:47
 msgid "Add"
+msgstr ""
+
+#: includes/class-air-wp-sync-filters.php:73
+#: includes/sources/class-air-wp-sync-barcode-source.php:27
+msgid "Value"
+msgstr ""
+
+#: includes/class-air-wp-sync-filters.php:95
+#: includes/sources/class-air-wp-sync-collaborator-source.php:39
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:240
+msgid "Name"
 msgstr ""
 
 #: includes/class-air-wp-sync.php:108
@@ -314,10 +325,6 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: includes/sources/class-air-wp-sync-barcode-source.php:27
-msgid "Value"
-msgstr ""
-
 #: includes/sources/class-air-wp-sync-collaborator-source.php:29
 msgid "ID"
 msgstr ""
@@ -325,11 +332,6 @@ msgstr ""
 #: includes/sources/class-air-wp-sync-collaborator-source.php:34
 #: modules/user/destinations/class-air-wp-sync-user-destination.php:127
 msgid "Email"
-msgstr ""
-
-#: includes/sources/class-air-wp-sync-collaborator-source.php:39
-#: modules/term/destinations/class-air-wp-sync-term-destination.php:240
-msgid "Name"
 msgstr ""
 
 #: modules/post/class-air-wp-sync-post-helpers.php:82
@@ -552,27 +554,31 @@ msgstr ""
 msgid "Optionally enter an airtable formula used to filter records. The formula will be evaluated for each record, and if the result is not 0, false, \"\", NaN, [], or #Error! the record will be imported. We recommend testing your formula in the Formula field UI before using it."
 msgstr ""
 
-#: views/metabox-airtable-settings.php:112
+#: views/metabox-airtable-settings.php:107
+msgid "Use filters UI"
+msgstr ""
+
+#: views/metabox-airtable-settings.php:121
 msgid "Include \"Link to another record\" field(s)"
 msgstr ""
 
-#: views/metabox-airtable-settings.php:113
+#: views/metabox-airtable-settings.php:122
 msgid "The <a href=\"https://www.airtable.com/guides/build/connect-data-with-linked-records\" target=\"_blank\">\"Link to another record\"</a> feature in Airtable enables creating relationships between records in different tables."
 msgstr ""
 
-#: views/metabox-airtable-settings.php:118
+#: views/metabox-airtable-settings.php:127
 msgid "Yes"
 msgstr ""
 
-#: views/metabox-airtable-settings.php:119
+#: views/metabox-airtable-settings.php:128
 msgid "No"
 msgstr ""
 
-#: views/metabox-airtable-settings.php:128
+#: views/metabox-airtable-settings.php:137
 msgid "<strong>Warning:</strong> Including \"Link to another record\" field(s) may extend synchronization times.<br /> Be aware that this could <strong>significantly increase the processing time.</strong><br /> Therefore, it might generate timeouts and you may need to contact your hosting provider."
 msgstr ""
 
-#: views/metabox-airtable-settings.php:131
+#: views/metabox-airtable-settings.php:140
 msgid "I understood"
 msgstr ""
 
@@ -684,44 +690,256 @@ msgstr ""
 msgid "Enables instant synchronization of your content. Using an Airtable automation, you can choose your own trigger and the connection will be updated as soon as the webhook url below is called."
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:3607
-msgid "Custom Field"
+#: assets/src/filters/src/resources/texts.js:3
+msgid "+ Add Filter"
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:3609
-#: assets/js/metabox-mapping/main.js:3628
-#: assets/js/metabox-mapping/main.js:3656
-#: assets/js/metabox-mapping/main.js:7513
-#: assets/js/metabox-mapping/main.js:7518
-msgid " (required)"
+#: assets/src/filters/src/resources/texts.js:4
+msgid "+ Add Filter Group"
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:3626
-#: assets/js/metabox-mapping/main.js:7511
+#: assets/src/filters/src/resources/texts.js:5
+msgid "Where"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:6
+msgid "And"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:7
+msgid "Or"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:8
+msgid "Conjunction"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:9
+msgid "Filter conditions can only be nested 3 levels deep"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:10
+msgid "Checked"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:12
+msgid "contains..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:13
+msgid "does not contain..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:14
+msgid "is..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:15
+msgid "is not... "
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:16
+msgid "is empty"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:17
+msgid "is not empty"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:18
+msgid "is within..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:19
+msgid "is before..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:20
+msgid "is after..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:21
+msgid "is on or before..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:22
+msgid "is on or after..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:23
+msgid "is any of..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:24
+msgid "is none of..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:25
+msgid "has any of..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:26
+msgid "has all of..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:27
+msgid "is exactly..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:28
+msgid "has none of..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:29
+msgid "filenames contains..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:30
+msgid "has file type..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:32
+msgid "Choose the field"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:33
+msgid "Choose the condition"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:34
+msgid "Set the value"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:36
+msgid "the past week"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:37
+msgid "the past month"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:38
+msgid "the past year"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:39
+msgid "the next week"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:40
+msgid "the next month"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:41
+msgid "the next year"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:42
+msgid "this calendar week"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:43
+msgid "this calendar month"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:44
+msgid "this calendar year"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:45
+msgid "the next number of days..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:46
+msgid "the past number of days..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:47
+msgid "exact date..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:48
+msgid "today"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:49
+msgid "tomorrow"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:50
+msgid "yesterday"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:51
+msgid "one week ago"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:52
+msgid "one week from now"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:53
+msgid "one month ago"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:54
+msgid "one month from now"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:55
+msgid "number of days ago..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:56
+msgid "number of days from now..."
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:59
+msgid "image"
+msgstr ""
+
+#: assets/src/filters/src/resources/texts.js:60
+msgid "text"
+msgstr ""
+
+#: assets/src/metabox-mapping/src/App.js:38
+#: assets/src/metabox-mapping/src/MappingRow.js:49
 msgid "Airtable Field"
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:3636
-msgid "Fields"
+#: assets/src/metabox-mapping/src/App.js:40
+#: assets/src/metabox-mapping/src/App.js:45
+#: assets/src/metabox-mapping/src/MappingRow.js:32
+#: assets/src/metabox-mapping/src/MappingRow.js:51
+#: assets/src/metabox-mapping/src/MappingRow.js:79
+msgid " (required)"
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:3654
-#: assets/js/metabox-mapping/main.js:7516
+#: assets/src/metabox-mapping/src/App.js:43
+#: assets/src/metabox-mapping/src/MappingRow.js:77
 msgid "Import As"
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:3679
-msgid "Sort"
-msgstr ""
-
-#: assets/js/metabox-mapping/main.js:3683
-msgid "Remove"
-msgstr ""
-
-#: assets/js/metabox-mapping/main.js:7533
+#: assets/src/metabox-mapping/src/App.js:60
 msgid "Click the <strong>+ Add Field</strong> button to create your first field."
 msgstr ""
 
-#: assets/js/metabox-mapping/main.js:7551
+#: assets/src/metabox-mapping/src/App.js:78
 msgid "+ Add Field"
+msgstr ""
+
+#: assets/src/metabox-mapping/src/MappingRow.js:30
+msgid "Custom Field"
+msgstr ""
+
+#: assets/src/metabox-mapping/src/MappingRow.js:59
+msgid "Fields"
+msgstr ""
+
+#: assets/src/metabox-mapping/src/MappingRow.js:102
+msgid "Sort"
+msgstr ""
+
+#: assets/src/metabox-mapping/src/MappingRow.js:106
+msgid "Remove"
 msgstr ""

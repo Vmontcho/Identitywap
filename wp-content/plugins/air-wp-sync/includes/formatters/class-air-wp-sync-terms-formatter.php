@@ -19,6 +19,9 @@ class Air_WP_Sync_Terms_Formatter {
 			return array();
 		}
 
+		// If the incoming value is a comma-seperated list of values, split the string.
+		$value = is_string( $value ) ? array_map( 'trim', explode( ',', $value ) ) : $value;
+
 		// Make sure we have an array of terms
 		$values = ! is_array( $value ) ? array( $value ) : $value;
 
