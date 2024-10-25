@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Air WP Sync &#8211; Airtable to WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-21 08:13:10+0000\n"
+"PO-Revision-Date: 2024-08-22 08:34:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,38 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Air WP Sync &#8211; Airtable to WordPress - Stable (latest release)\n"
+
+#: modules/term/views/settings.php:18
+msgid "Default taxonomy"
+msgstr "Taxonomie par défaut"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:270
+msgid "Parent (by name)"
+msgstr "Parent (par nom)"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:264
+msgid "Parent (by ID)"
+msgstr "Parent (par ID)"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:258
+msgid "Description"
+msgstr "Description"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:252
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:226
+msgid "Terms"
+msgstr "Termes"
+
+#: modules/term/class-air-wp-sync-term-module.php:66
+msgid "It is mandatory to map the term name."
+msgstr "Il est obligatoire de mapper le nom du terme."
+
+#: modules/term/class-air-wp-sync-term-importer.php:49
+msgid "Term name is missing"
+msgstr "Le nom du terme est manquant"
 
 #: includes/class-air-wp-sync-abstract-importer.php:205
 msgid "Could not refresh attachment URLs: %s"
