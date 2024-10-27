@@ -1316,7 +1316,7 @@ p {
 }
 
 .slider-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann-idwap_001.jpg');
+  background-image: url('../images/bann-idwap_001.jpg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1328,24 +1328,24 @@ p {
 }
 
 .slider-background.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann_bleu_001.jpg');
+  background-image: url('../images/bann_bleu_001.jpg');
 }
 
 .slider-background.four {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/banners-idwap_010.jpg');
+  background-image: url('../images/banners-idwap_010.jpg');
 }
 
 .slider-background.five {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/coll_ciel_001.jpg');
+  background-image: url('../images/coll_ciel_001.jpg');
 }
 
 .slider-background.six {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_line_003.jpg');
+  background-image: url('../images/idwap_line_003.jpg');
   background-position: 50%;
 }
 
 .slider-background.seven {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/coll_trace_001.jpg');
+  background-image: url('../images/coll_trace_001.jpg');
   background-position: 50%;
 }
 
@@ -2205,7 +2205,7 @@ p {
 }
 
 .background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/image001.jpeg');
+  background-image: url('../images/image001.jpeg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2217,21 +2217,21 @@ p {
 }
 
 .background.shop-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_1p_004.jpg');
+  background-image: url('../images/idwap_1p_004.jpg');
   background-position: 50%;
 }
 
 .background.faq-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann_bleu_002.jpg');
+  background-image: url('../images/bann_bleu_002.jpg');
   background-position: 50% 100%;
 }
 
 .background.checkout-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann_bleu_001.jpg');
+  background-image: url('../images/bann_bleu_001.jpg');
 }
 
 .background.contact-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann-idwap_001.jpg');
+  background-image: url('../images/bann-idwap_001.jpg');
 }
 
 .action-heading-wrapper {
@@ -2644,7 +2644,7 @@ p {
 }
 
 .action-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_1p_004.jpg');
+  background-image: url('../images/idwap_1p_004.jpg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3088,7 +3088,7 @@ p {
 }
 
 .instagram-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/image003.jpeg');
+  background-image: url('../images/image003.jpeg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3100,20 +3100,20 @@ p {
 }
 
 .instagram-background.one {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/logo-identity-wap.jpeg');
+  background-image: url('../images/logo-identity-wap.jpeg');
 }
 
 .instagram-background.two {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/coll_trace_001.jpg');
+  background-image: url('../images/coll_trace_001.jpg');
 }
 
 .instagram-background.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_line_001.jpg');
+  background-image: url('../images/idwap_line_001.jpg');
   background-position: 50% 0;
 }
 
 .instagram-background.four {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_gris_col_001.jpg');
+  background-image: url('../images/idwap_gris_col_001.jpg');
   background-position: 50% 0;
 }
 
@@ -3197,7 +3197,7 @@ p {
 }
 
 .flying-image {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/image005.jpeg');
+  background-image: url('../images/image005.jpeg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3209,17 +3209,17 @@ p {
 }
 
 .flying-image.one {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann-idwap_001.jpg');
+  background-image: url('../images/bann-idwap_001.jpg');
   background-position: 50% 0;
 }
 
 .flying-image.two {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_1p_005.jpg');
+  background-image: url('../images/idwap_1p_005.jpg');
   background-position: 50% 0;
 }
 
 .flying-image.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_gris_2p_001.jpg');
+  background-image: url('../images/idwap_gris_2p_001.jpg');
   background-position: 50% 0;
   transform: rotate(0);
 }
@@ -4092,7 +4092,7 @@ p {
 }
 
 .feature-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/coll_trace_001-1.jpg');
+  background-image: url('../images/coll_trace_001-1.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4104,16 +4104,16 @@ p {
 }
 
 .feature-background.two {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/coll_ciel_001.jpg');
+  background-image: url('../images/coll_ciel_001.jpg');
   background-position: 50% 0;
 }
 
 .feature-background.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/banner-idwap.jpg');
+  background-image: url('../images/banner-idwap.jpg');
 }
 
 .feature-background.one {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann_bleu_002.jpg');
+  background-image: url('../images/bann_bleu_002.jpg');
 }
 
 .product-benefit-background {
@@ -4150,7 +4150,7 @@ p {
 }
 
 .hero-image-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_1p_004.jpg');
+  background-image: url('../images/idwap_1p_004.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4162,19 +4162,19 @@ p {
 }
 
 .hero-image-background.two {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_ciel_004.jpg');
+  background-image: url('../images/idwap_ciel_004.jpg');
 }
 
 .hero-image-background.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/coll_trace_001.jpg');
+  background-image: url('../images/coll_trace_001.jpg');
 }
 
 .hero-image-background.four {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/image016-1.jpg');
+  background-image: url('../images/image016-1.jpg');
 }
 
 .about-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/bann-idwap_001.jpg');
+  background-image: url('../images/bann-idwap_001.jpg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4186,11 +4186,11 @@ p {
 }
 
 .about-background.two {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_gris_2p_002.jpg');
+  background-image: url('../images/idwap_gris_2p_002.jpg');
 }
 
 .about-background.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_line_003.jpg');
+  background-image: url('../images/idwap_line_003.jpg');
 }
 
 .stacked-description {
@@ -4203,7 +4203,7 @@ p {
 }
 
 .featured-product-image {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4215,15 +4215,15 @@ p {
 }
 
 .featured-product-image.one {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/1.png');
+  background-image: url('../images/1.png');
 }
 
 .featured-product-image.two {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/3.png');
+  background-image: url('../images/3.png');
 }
 
 .featured-product-image.three {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/2.png');
+  background-image: url('../images/2.png');
 }
 
 .width-large {
@@ -4346,7 +4346,7 @@ p {
 }
 
 .story-background {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_gris_2p_001.jpg');
+  background-image: url('../images/idwap_gris_2p_001.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4358,7 +4358,7 @@ p {
 }
 
 .story-background.right-image {
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/idwap_1p_004.jpg');
+  background-image: url('../images/idwap_1p_004.jpg');
 }
 
 .story-content {
@@ -4691,7 +4691,7 @@ p {
   background-color: var(--black-2);
   letter-spacing: 4px;
   text-transform: uppercase;
-  background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/search24x242x-2.svg');
+  background-image: url('../images/search24x242x-2.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -5444,7 +5444,7 @@ p {
 
   .search-button {
     background-color: var(--dark-outline);
-    background-image: url('https://identitywap.com/wp-content/themes/identity-wap/assets/images/search-dark-small24x242x-1.svg');
+    background-image: url('../images/search-dark-small24x242x-1.svg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 14px;
@@ -6609,245 +6609,245 @@ p {
 
 @font-face {
   font-family: 'Clashdisplay';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-bold.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-bold.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-bold.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-bold.eot') format('embedded-opentype'), url('../fonts/clashdisplay-bold.woff') format('woff'), url('../fonts/clashdisplay-bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Clashdisplay';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-light.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-light.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-light.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-light.eot') format('embedded-opentype'), url('../fonts/clashdisplay-light.woff') format('woff'), url('../fonts/clashdisplay-light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Clashdisplay';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-extralight.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-extralight.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-extralight.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-extralight.eot') format('embedded-opentype'), url('../fonts/clashdisplay-extralight.woff') format('woff'), url('../fonts/clashdisplay-extralight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Clashdisplay';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-medium.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-medium.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-medium.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-medium.eot') format('embedded-opentype'), url('../fonts/clashdisplay-medium.woff') format('woff'), url('../fonts/clashdisplay-medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Clashdisplay';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-regular.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-regular.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-regular.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-regular.eot') format('embedded-opentype'), url('../fonts/clashdisplay-regular.woff') format('woff'), url('../fonts/clashdisplay-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Clashdisplay';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-semibold.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-semibold.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-semibold.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-semibold.eot') format('embedded-opentype'), url('../fonts/clashdisplay-semibold.woff') format('woff'), url('../fonts/clashdisplay-semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Clashdisplay variable';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-variable.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-variable.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/clashdisplay-variable.ttf') format('truetype');
+  src: url('../fonts/clashdisplay-variable.eot') format('embedded-opentype'), url('../fonts/clashdisplay-variable.woff') format('woff'), url('../fonts/clashdisplay-variable.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-bold.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-bold.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-bold.ttf') format('truetype');
+  src: url('../fonts/generalsans-bold.eot') format('embedded-opentype'), url('../fonts/generalsans-bold.woff') format('woff'), url('../fonts/generalsans-bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-bolditalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-bolditalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-bolditalic.ttf') format('truetype');
+  src: url('../fonts/generalsans-bolditalic.eot') format('embedded-opentype'), url('../fonts/generalsans-bolditalic.woff') format('woff'), url('../fonts/generalsans-bolditalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-extralight.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-extralight.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-extralight.ttf') format('truetype');
+  src: url('../fonts/generalsans-extralight.eot') format('embedded-opentype'), url('../fonts/generalsans-extralight.woff') format('woff'), url('../fonts/generalsans-extralight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-extralightitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-extralightitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-extralightitalic.ttf') format('truetype');
+  src: url('../fonts/generalsans-extralightitalic.eot') format('embedded-opentype'), url('../fonts/generalsans-extralightitalic.woff') format('woff'), url('../fonts/generalsans-extralightitalic.ttf') format('truetype');
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-italic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-variableitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-italic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-variableitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-italic.ttf') format('truetype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-variableitalic.ttf') format('truetype');
+  src: url('../fonts/generalsans-italic.eot') format('embedded-opentype'), url('../fonts/generalsans-variableitalic.eot') format('embedded-opentype'), url('../fonts/generalsans-italic.woff') format('woff'), url('../fonts/generalsans-variableitalic.woff') format('woff'), url('../fonts/generalsans-italic.ttf') format('truetype'), url('../fonts/generalsans-variableitalic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-light.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-light.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-light.ttf') format('truetype');
+  src: url('../fonts/generalsans-light.eot') format('embedded-opentype'), url('../fonts/generalsans-light.woff') format('woff'), url('../fonts/generalsans-light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-lightitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-lightitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-lightitalic.ttf') format('truetype');
+  src: url('../fonts/generalsans-lightitalic.eot') format('embedded-opentype'), url('../fonts/generalsans-lightitalic.woff') format('woff'), url('../fonts/generalsans-lightitalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-medium.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-medium.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-medium.ttf') format('truetype');
+  src: url('../fonts/generalsans-medium.eot') format('embedded-opentype'), url('../fonts/generalsans-medium.woff') format('woff'), url('../fonts/generalsans-medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-regular.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-regular.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-regular.ttf') format('truetype');
+  src: url('../fonts/generalsans-regular.eot') format('embedded-opentype'), url('../fonts/generalsans-regular.woff') format('woff'), url('../fonts/generalsans-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-mediumitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-mediumitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-mediumitalic.ttf') format('truetype');
+  src: url('../fonts/generalsans-mediumitalic.eot') format('embedded-opentype'), url('../fonts/generalsans-mediumitalic.woff') format('woff'), url('../fonts/generalsans-mediumitalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-semibold.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-semibold.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-semibold.ttf') format('truetype');
+  src: url('../fonts/generalsans-semibold.eot') format('embedded-opentype'), url('../fonts/generalsans-semibold.woff') format('woff'), url('../fonts/generalsans-semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-semibolditalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-semibolditalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-semibolditalic.ttf') format('truetype');
+  src: url('../fonts/generalsans-semibolditalic.eot') format('embedded-opentype'), url('../fonts/generalsans-semibolditalic.woff') format('woff'), url('../fonts/generalsans-semibolditalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Generalsans variable';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-variable.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-variable.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/generalsans-variable.ttf') format('truetype');
+  src: url('../fonts/generalsans-variable.eot') format('embedded-opentype'), url('../fonts/generalsans-variable.woff') format('woff'), url('../fonts/generalsans-variable.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-black.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-black.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-black.ttf') format('truetype');
+  src: url('../fonts/satoshi-black.eot') format('embedded-opentype'), url('../fonts/satoshi-black.woff') format('woff'), url('../fonts/satoshi-black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-blackitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-blackitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-blackitalic.ttf') format('truetype');
+  src: url('../fonts/satoshi-blackitalic.eot') format('embedded-opentype'), url('../fonts/satoshi-blackitalic.woff') format('woff'), url('../fonts/satoshi-blackitalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-bold.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-bold.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-bold.ttf') format('truetype');
+  src: url('../fonts/satoshi-bold.eot') format('embedded-opentype'), url('../fonts/satoshi-bold.woff') format('woff'), url('../fonts/satoshi-bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-bolditalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-bolditalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-bolditalic.ttf') format('truetype');
+  src: url('../fonts/satoshi-bolditalic.eot') format('embedded-opentype'), url('../fonts/satoshi-bolditalic.woff') format('woff'), url('../fonts/satoshi-bolditalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-italic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-italic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-italic.ttf') format('truetype');
+  src: url('../fonts/satoshi-italic.eot') format('embedded-opentype'), url('../fonts/satoshi-italic.woff') format('woff'), url('../fonts/satoshi-italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-light.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-light.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-light.ttf') format('truetype');
+  src: url('../fonts/satoshi-light.eot') format('embedded-opentype'), url('../fonts/satoshi-light.woff') format('woff'), url('../fonts/satoshi-light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-lightitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-lightitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-lightitalic.ttf') format('truetype');
+  src: url('../fonts/satoshi-lightitalic.eot') format('embedded-opentype'), url('../fonts/satoshi-lightitalic.woff') format('woff'), url('../fonts/satoshi-lightitalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-medium.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-medium.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-medium.ttf') format('truetype');
+  src: url('../fonts/satoshi-medium.eot') format('embedded-opentype'), url('../fonts/satoshi-medium.woff') format('woff'), url('../fonts/satoshi-medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-regular.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-regular.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-regular.ttf') format('truetype');
+  src: url('../fonts/satoshi-regular.eot') format('embedded-opentype'), url('../fonts/satoshi-regular.woff') format('woff'), url('../fonts/satoshi-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-mediumitalic.eot') format('embedded-opentype'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-mediumitalic.woff') format('woff'), url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/satoshi-mediumitalic.ttf') format('truetype');
+  src: url('../fonts/satoshi-mediumitalic.eot') format('embedded-opentype'), url('../fonts/satoshi-mediumitalic.woff') format('woff'), url('../fonts/satoshi-mediumitalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Spacegrotesk';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/spacegrotesk-bold.otf') format('opentype');
+  src: url('../fonts/spacegrotesk-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Spacegrotesk';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/spacegrotesk-light.otf') format('opentype');
+  src: url('../fonts/spacegrotesk-light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Spacegrotesk';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/spacegrotesk-regular.otf') format('opentype');
+  src: url('../fonts/spacegrotesk-regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Spacegrotesk';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/spacegrotesk-semibold.otf') format('opentype');
+  src: url('../fonts/spacegrotesk-semibold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Spacegrotesk';
-  src: url('https://identitywap.com/wp-content/themes/identity-wap/assets/fonts/spacegrotesk-medium.otf') format('opentype');
+  src: url('../fonts/spacegrotesk-medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;

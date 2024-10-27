@@ -1,0 +1,661 @@
+{
+  "posts": [
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 1800,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 1800,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "The Man-Bleu ciel-2P",
+      "post_content": "These are powered by our Royal fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "man-bleu-ciel",
+      "post_modified": "2024-06-13T15:17:34.713Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "the-man-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Révélez le king en vous dans le tissu africain le plus confortable. Conçu sans col, avec poches et des lignes fines et précises.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/6619dc257803a7b387f0e45d_idwap_ciel_004.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [
+            {
+              "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0457ccb74532b48195ba_idwap_blanc_002.jpg",
+              "alt": null
+            },
+            {
+              "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0461c3466edd15c66e7e_idwap_blanc_003.jpg",
+              "alt": null
+            }
+          ],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "The Man-Blanc-2P",
+      "post_content": "These are powered by our Miami fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "the-man-blanc",
+      "post_modified": "2024-06-13T15:14:04.544Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "the-man-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0480ccb74532b481bb2d_idwap_blanc_001.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "The Man-Gris-2P",
+      "post_content": "These are powered by our Tribeca fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "the-man-gris",
+      "post_modified": "2024-06-13T15:19:38.481Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "the-man-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a057f10a9b25b9873f737_idwap_gris_col_002.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2300,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 2300,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "The King-Bleu-1P",
+      "post_content": "These are powered by our Propel fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "the-king-bleu",
+      "post_modified": "2024-06-13T15:27:54.484Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "the-king-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0736e69a2395ba59aa9e_idwap_bleu_003.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2500,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 2500,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "The King-Tracé-1P",
+      "post_content": "These are powered by our Hampton fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "the-king-trace",
+      "post_modified": "2024-06-13T15:28:35.586Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "the-king-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a088de69a2395ba5ae12a_idwap_trace%CC%81_005.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2500,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 2500,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "Les Debouts-Bleu-1P",
+      "post_content": "These are powered by our Fulton fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "debouts-bleu",
+      "post_modified": "2024-06-13T15:30:06.862Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "debouts-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0591606efa530917fca9_idwap_line_003.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 1500,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 1500,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "Jeune-Marron/noir-1P",
+      "post_content": "These are powered by our Hooded fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "jeune-marron-noir",
+      "post_modified": "2024-06-13T15:30:50.218Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "debouts-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0a78e66b4513412fcb32_collection%20thumb_005.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "_sale_price": {
+          "value": 59,
+          "type": "CommercePrice"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 59,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "Les Debouts-Bleu grisé",
+      "post_content": "These are powered by our Karma fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "les-debouts-bleu-grise",
+      "post_modified": "2024-06-13T15:32:22.877Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "debouts-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a0bc9606efa53091ced22_idwap_1P_001.jpg",
+        "alt": null
+      }
+    },
+    {
+      "needs_shipping": true,
+      "custom_meta_input": {
+        "_regular_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        },
+        "attribute_values": {
+          "value": {},
+          "type": "CommercePropValues"
+        },
+        "_width": {
+          "value": 80,
+          "type": "Number"
+        },
+        "_length": {
+          "value": 95,
+          "type": "Number"
+        },
+        "_height": {
+          "value": 57,
+          "type": "Number"
+        },
+        "_weight": {
+          "value": 52,
+          "type": "Number"
+        },
+        "download-files": {
+          "value": [],
+          "type": "Set"
+        },
+        "more-images": {
+          "value": [],
+          "type": "Set"
+        },
+        "ec-sku-billing-method": {
+          "value": "one-time",
+          "type": "EnumOption"
+        },
+        "_price": {
+          "value": 2000,
+          "type": "CommercePrice"
+        }
+      },
+      "post_title": "Les Debouts-Gris-col",
+      "post_content": "These are powered by our Sleeveless fabric. Officiis amet assumenda totam odio pariatur. Nisi veniam ab odit sit odit delectus assumenda architecto ducimus. Alias maxime enim assumenda occaecati.",
+      "post_name": "debouts-gris-col",
+      "post_modified": "2024-06-25T15:52:06.830Z",
+      "post_date": "2024-05-07T09:59:40.137Z",
+      "tax_input": {
+        "product_cat": [
+          "debouts-collection"
+        ],
+        "product_type": [
+          "simple"
+        ]
+      },
+      "post_excerpt": "Restore your body in the most comfortable compression fabric. Designed with the world's only dry-fit pockets.",
+      "post_type": "product",
+      "_thumbnail_id": {
+        "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/661a057f10a9b25b9873f737_idwap_gris_col_002.jpg",
+        "alt": null
+      }
+    },
+    {
+      "post_name": "index",
+      "post_title": "Home",
+      "post_type": "page"
+    },
+    {
+      "post_name": "about",
+      "post_title": "About",
+      "post_type": "page"
+    },
+    {
+      "post_name": "checkout",
+      "post_title": "Checkout",
+      "post_type": "page"
+    },
+    {
+      "post_name": "contact",
+      "post_title": "Contact",
+      "post_type": "page"
+    },
+    {
+      "post_name": "faq",
+      "post_title": "FAQ",
+      "post_type": "page"
+    },
+    {
+      "post_name": "shop",
+      "post_title": "Shop",
+      "post_type": "page"
+    }
+  ],
+  "terms": [
+    {
+      "custom_meta_input": {
+        "short-description": {
+          "value": "Collection 2 poches",
+          "type": "PlainText"
+        }
+      },
+      "name": "The Man collection",
+      "slug": "the-man-collection",
+      "taxonomy": "product_cat"
+    },
+    {
+      "name": "Debouts et jeunes collection",
+      "slug": "debouts-collection",
+      "custom_meta_input": {
+        "featured-image": {
+          "value": {
+            "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/6614972bac3437b7aa258399_Image004%202.jpg",
+            "alt": null
+          },
+          "type": "ImageRef"
+        },
+        "short-description": {
+          "value": "Pour les debouts seulement",
+          "type": "PlainText"
+        }
+      },
+      "taxonomy": "product_cat"
+    },
+    {
+      "name": "The King collection",
+      "slug": "the-king-collection",
+      "custom_meta_input": {
+        "featured-image": {
+          "value": {
+            "url": "https://uploads-ssl.webflow.com/6614972bac3437b7aa2582ce/6614972bac3437b7aa258398_Image005%201.jpg",
+            "alt": null
+          },
+          "type": "ImageRef"
+        },
+        "short-description": {
+          "value": "Pour ceux qui influencent, l'autorité, le leader, l'entrepreneur en vous. Révéler qui vous êtes.",
+          "type": "PlainText"
+        },
+        "page-title": {
+          "value": "Manifestez le leader en vous",
+          "type": "PlainText"
+        }
+      },
+      "taxonomy": "product_cat"
+    }
+  ],
+  "users": []
+}
