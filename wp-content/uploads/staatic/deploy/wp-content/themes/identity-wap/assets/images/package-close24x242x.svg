@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-reactroot="">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#000000" fill="none" d="M12 12L4 8V17L12 21V12Z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#000000" fill="none" d="M12 21L20 17V8L12 12V21Z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#000000" fill="none" d="M16 6L8 10L12 12L20 8L16 6Z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#000000" fill="none" d="M16 6L8 10L4 8L12 4L16 6Z"></path>
+</svg>
